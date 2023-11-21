@@ -1,0 +1,50 @@
+.app {
+    background-image: url(./db/theme1/images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.app.bg1{
+    background-image: url(./db/theme1/images/img1.jpg);
+}
+
+.app.bg2{
+    background-image: url(./db/theme1/images/img2.jpg);
+}
+.app.bg3{
+    background-image: url(./db/theme1/images/img3.jpg);
+}
+.app.bg4{
+    background-image: url(./db/theme1/images/img4.jpg);
+}
+
+
+.app__container {
+   
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-items: center;
+    text-align: justify;
+    width: min(100%,300px);
+    padding:0 10px;
+    
+}
+.titulo{
+    color: #eee;
+    padding-top: 1rem;
+    text-shadow: #222;
+    font-weight: 800;
+}
+
+.pieDePagina{
+    color: #eee;
+    padding-bottom: 1rem;
+    font-weight: 800;
+    text-shadow: #222;
+}

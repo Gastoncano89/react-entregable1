@@ -1,0 +1,26 @@
+.quoteBox{
+    
+    padding: 0 10px;
+}
+.quoteBox__btn{
+    display:block;
+    margin: 0 auto;
+    padding: 0.3em;
+    background-color: darkgray;
+    font-weight: 500;
+    border-radius: 100px;
+    font-size:medium;
+    
+}
+.quoteBox__phrase{
+    width: 250px;
+    height: 250px;
+    background-color:rgba(98%,98%,98%, 0.7);
+    color:#222;
+    margin: 15px;
+    padding : 1px 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 3px darkgray;
+    
+}
